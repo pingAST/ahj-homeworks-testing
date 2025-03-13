@@ -1,0 +1,27 @@
+Иконки платежных систем (SVG) взяты из репозитория Aaron Fagan:
+https://github.com/aaronfagan/svg-credit-card-payment-icons
+
+Image: visa.svg
+ImageName: Иконка - Электронная платежная система visa
+Source: https://github.com/aaronfagan/svg-credit-card-payment-icons/blob/main/logo/visa.svg
+
+Image: mastercard.svg
+ImageName: Иконка - Электронная платежная система mastercard
+Source: https://github.com/aaronfagan/svg-credit-card-payment-icons/blob/main/logo/mastercard.svg
+
+Image: mir.svg
+ImageName: Иконка - Электронная платежная система mir
+Source: https://github.com/aaronfagan/svg-credit-card-payment-icons/blob/main/logo/mir.svg
+
+Image: amex.svg
+ImageName: Иконка Электронная платежная система amex
+Source: https://github.com/aaronfagan/svg-credit-card-payment-icons/blob/main/logo/amex.svg
+
+Image: discover.svg
+ImageName: Иконка - Электронная платежная система discover
+Source: https://github.com/aaronfagan/svg-credit-card-payment-icons/blob/main/logo/discover.svg
+
+Image: jcb.svg
+ImageName: Иконка - Электронная платежная система jcb
+Source: https://github.com/aaronfagan/svg-credit-card-payment-icons/blob/main/logo/jcb.svg
+
