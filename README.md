@@ -4,6 +4,8 @@
 
 [Cсылка на Github Pages](https://pingast.github.io/ahj-homeworks-testing/)
 
+[Файл `licenses.txt`](https://pingast.github.io/ahj-homeworks-testing/licenses.txt)
+
 > В качестве источника номеров карт используйте сервис [FreeFormatter](https://www.freeformatter.com/credit-card-number-generator-validator.html).
 
 [![Build status](https://ci.appveyor.com/api/projects/status/d8rr84db9bgr47y3?svg=true)](https://ci.appveyor.com/project/pingAST/ahj-homeworks-testing)
