@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #2c3e50;
+  --valid-color: #27ae60;
+  --invalid-color: #e74c3c;
+  --icon-size: 50px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f6fa;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.card-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+  flex-shrink: 0;
+}
+.icon.active {
+  opacity: 1;
+}
+
+.visa { background-image: url('../img/visa.svg'); }
+.mastercard { background-image: url('../img/mastercard.svg'); }
+.mir { background-image: url('../img/mir.svg'); }
+.amex { background-image: url('../img/amex.svg'); }
+.discover { background-image: url('../img/discover.svg'); }
+.jcb { background-image: url('../img/jcb.svg'); }
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #335d5d;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#result {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#result.valid {
+  background-color: var(--valid-color);
+  color: white;
+}
+
+#result.invalid {
+  background-color: var(--invalid-color);
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
